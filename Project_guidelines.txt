@@ -1,0 +1,36 @@
+# Process flow: 
+1) Take the input list of lists from googlesheets
+2) Traverse it
+3) Get the URL location
+4) Scrap the URL for the entry/desired value with python code
+5) Get a response from URL
+6) return an output in dictinory form
+7) Use operator to check value
+8) perform an action/alert if condition meets
+
+Notes:
+1) response from URL - statuscodes:
+200: success
+300: success but redirection to other source than the one requested
+400: user mistake/404: universal page not found
+500: server error/mistake
+
+
+# step 3: Get URL location:
+how to get the response url for dynamic data: 
+-go to developer tools/inspect
+-go to network
+-hit any response coming
+-control find
+-enter search number/query from existing page 
+-click the link. 
+-go to headers
+-copy the url- BOOM!
+
+#Step4: make a variable resp. store the resp in dict with json
+
+#step5: use this tool: https://jsonviewer.stack.hu/
+to find pathway for your desired entry and its index position
+
+
+
