@@ -33,5 +33,27 @@ how to get the response url for dynamic data:
 to find pathway for your desired entry and its index position. use this if url have json format. if HTML use BEAUTIFULSOUP4 LIBRARY TO PARSE THE HTML
 
 
+## SETUP Python environment
+
+### check python version 
+python --version or python3 --version
+
+### Create new environment
+python3 -m venv 
+
+### Check which environment is active on terminal
+which python
+
+Open terminal window shortcut : ctrl + `
+### Change Python
+
+Install Python extention from microsoft
+
+
+### To create requirements.txt
+pip freeze > requirements.txt
+
+
+
 
 
