@@ -19,7 +19,6 @@ The "Extractor Alerts" project is a Python-based application designed to monitor
    - Compare the scraped Bitcoin price with the target prices to determine if an alert needs to be triggered.
 
 3. **Email Notifications:**
-   - Use the `smtplib` library to send email notifications to users.
    - Ensure secure email sending by integrating with email service providers using SMTP authentication.
 
 #### Technical Implementation
