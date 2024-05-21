@@ -25,14 +25,13 @@ The "Extractor Alerts" project is a Python-based application designed to monitor
 #### Technical Implementation
 
 1. **Web Scraping:**
-   - **Libraries:** `requests`, `BeautifulSoup`
+   - **Libraries:** `requests`, `BeautifulSoup`,`jmespath`
    - **Functionality:** Fetch the latest Bitcoin price from the CoinDesk website. Parse the HTML content to extract the current price.
 
 2. **Price Target Alert:**
    - **Functionality:** Check if the current Bitcoin price meets or exceeds any user-defined target prices.
 
 3. **Email Notifications:**
-   - **Libraries:** `smtplib`
    - **Functionality:** Send an email alert to the user if the target price is met.
 
 
